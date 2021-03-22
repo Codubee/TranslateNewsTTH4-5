@@ -1,0 +1,22 @@
+.tools {
+    text-align: center;
+}
+
+.tools-header {
+    margin: 1em;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 10em;
+    
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
