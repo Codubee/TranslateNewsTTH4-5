@@ -8,13 +8,7 @@
     font-size: 3em;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-svg {
+.tools-icon {
     width: 10em;
     
     margin-top: 1.5em;
