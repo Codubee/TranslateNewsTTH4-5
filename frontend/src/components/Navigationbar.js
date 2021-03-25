@@ -10,7 +10,7 @@ import {
   NavbarText
 } from 'reactstrap';
 
-const Navigationbar = (props) => {
+function Navigationbar(){
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
