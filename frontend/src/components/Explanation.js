@@ -1,4 +1,5 @@
 import React from 'react';
+import './Explanation.css';
 function Explanation() {
     return (
         <div class="jumbotron jumbotron-fluid">
@@ -7,7 +8,7 @@ function Explanation() {
                 <p class="lead">This is a project powered by students that gives you the power to translate any news article to your preferred langauge :).</p>
             </div>
             <div>
-                <a class="btn btn-primary btn-lg" href="#Explanation.css" role="button" style={{ marginLeft: "1200px" }}>Learn more</a>
+                <a class="btn btn-primary btn-lg button" href="#Explanation.css" role="button" >Learn more</a>
             </div>
         </div>
     )
