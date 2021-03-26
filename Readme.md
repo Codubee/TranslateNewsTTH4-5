@@ -26,7 +26,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project was created by ___ during the Spring 2021 session of Codubee. We built this application as a solution to those who cannot understand news in English text.
+This project was created by [Aru](https://github.com/AruGyani), [Hannah](https://github.com/hannah117), [Jose](https://github.com/jhagui7464), [Kirtan](https://github.com/kirtanmedi), and [Lillie](https://github.com/lilliemcmaster) during the Spring 2021 session of Codubee. We built this application as a solution to those who cannot understand news in English text.
 
 
 <!-- GETTING STARTED -->
