@@ -17,12 +17,12 @@ function Navigationbar(){
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar color="warning" dark expand="md">
         <NavbarBrand href="/">
-          TranslateNews&nbsp;
+          TranslateNews
           <i class="fas fa-home"></i>
-        </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        </NavbarBrand>  
+        <NavbarToggler onClick={toggle} />  
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
@@ -30,7 +30,7 @@ function Navigationbar(){
             </NavItem>
           </Nav>
           <NavbarText><i class="fas fa-language"></i></NavbarText>
-          <NavbarText>&nbsp;<i class="fas fa-newspaper"></i></NavbarText>
+          <NavbarText><i class="fas fa-newspaper"></i></NavbarText>
         </Collapse>
       </Navbar>
     </div>
