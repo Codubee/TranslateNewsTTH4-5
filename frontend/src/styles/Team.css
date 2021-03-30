@@ -1,20 +1,31 @@
- .card {
+ .teammate-card {
     height: auto;
-    margin : 3rem 1.5rem;
+    margin : 3rem 8.5rem;
     display: inline-flex;
-    text-align: center;
+    text-align: center !important;
     width: 13rem;
-    border: none;
+    border: none !important;
     vertical-align: auto;
 }
-.header {
+
+.team-header {
     text-align: center;
     font-weight: 700;
     font-size: 3em;
 }
 
-.container {
+.team-card-container {
     align-items: center;
-    display:block;
+    display: block;
 }
 
+.teammate-pic  {
+    height: 12rem !important;
+    width: 12rem !important;
+    alt: "picture of student";
+    border-radius: 20rem !important;
+}
+
+.teammate-card-body {
+    width: 13rem;
+}
