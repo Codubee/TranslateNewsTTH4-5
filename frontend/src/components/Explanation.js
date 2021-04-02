@@ -1,5 +1,4 @@
 import React from 'react';
-import './Explanation.css';
 function Explanation() {
     return (
         <div class="jumbotron jumbotron-fluid">
