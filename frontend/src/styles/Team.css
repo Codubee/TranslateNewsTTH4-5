@@ -1,0 +1,25 @@
+ .teammate-card {
+    height: auto;
+    margin : 3rem 8.5rem;
+    display: inline-block;
+    text-align: center !important;
+    border: none !important;
+    vertical-align: auto;
+}
+
+.team-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.teammate-pic  {
+    height: 12rem !important;
+    width: 12rem !important;
+    alt: "picture of student";
+    border-radius: 20rem !important;
+}
+
+.teammate-card-body {
+    width: 13rem !important;
+}
