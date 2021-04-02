@@ -5,7 +5,7 @@ import Tools from '../components/Tools.js';
 function LandingPage(){
     return(
         <div>
-            <Features></Features>
+            <Features/>
             <Tools></Tools>
         </div>
     )
