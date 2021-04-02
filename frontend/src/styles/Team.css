@@ -1,9 +1,8 @@
  .teammate-card {
     height: auto;
     margin : 3rem 8.5rem;
-    display: inline-flex;
+    display: inline-block;
     text-align: center !important;
-    width: 13rem;
     border: none !important;
     vertical-align: auto;
 }
@@ -14,11 +13,6 @@
     font-size: 3em;
 }
 
-.team-card-container {
-    align-items: center;
-    display: block;
-}
-
 .teammate-pic  {
     height: 12rem !important;
     width: 12rem !important;
@@ -27,5 +21,5 @@
 }
 
 .teammate-card-body {
-    width: 13rem;
+    width: 13rem !important;
 }
