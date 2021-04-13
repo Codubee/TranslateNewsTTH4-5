@@ -9,6 +9,7 @@ function LandingPage(){
     return(
         <div>
             <Explanation/>
+            <Vaccinenews/>
             <Features/>
             <Tools/>
             <Team/>
