@@ -1,0 +1,29 @@
+[
+    {
+        "image":"https://play-lh.googleusercontent.com/4jJ1C7UePequc2x89CyXRp1a6w7O7nGp1T62WdS_09YGDXQh9xiSREn7w86ifM5Ip6Ba",
+        "title":"Robinhood goes bankrupt",
+        "subtext":"GME -> moon",
+        "url":"https://robinhood.com"
+    },
+
+    {
+        "image":"imageurl",
+        "title":"news title",
+        "subtext":"some subtext",
+        "url":"news article url"
+    },
+
+    {
+        "image":"imageurl",
+        "title":"news title",
+        "subtext":"some subtext",
+        "url":"news article url"
+    },
+
+    {
+        "image":"imageurl",
+        "title":"news title",
+        "subtext":"some subtext",
+        "url":"news article url"
+    }
+]
