@@ -26,7 +26,7 @@ function Navigationbar(){
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/news">News</NavLink> 
+              <NavLink href="/translate">Translate</NavLink> 
             </NavItem>
           </Nav>
           <NavbarText><i class="fas fa-language"></i></NavbarText>

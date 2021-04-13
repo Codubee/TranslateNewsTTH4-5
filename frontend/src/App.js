@@ -1,7 +1,7 @@
 import './App.css';
 import LandingPage from './views/LandingPage'
+import Translate from './views/Translate'
 import Navigationbar from './components/Navigationbar'
-import News from './views/News'
 
 import {
   BrowserRouter as Router,
@@ -22,7 +22,7 @@ function App() {
         */}
 
         <Route path="/" exact component={LandingPage}/> 
-        <Route path="/news" component={News}/>
+        <Route path="/translate" component={Translate}/>
       </div>
     </Router>
   );
