@@ -9,6 +9,7 @@ import {
   NavLink,
   NavbarText
 } from 'reactstrap';
+import "../styles/Navigationbar.css"
 
 function Navigationbar(){
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ function Navigationbar(){
 
   return (
     <div>
-      <Navbar color="warning" dark expand="md">
+      <Navbar className="navbar-color" dark expand="md">
         <NavbarBrand href="/">
           TranslateNews
           <i class="fas fa-home"></i>
