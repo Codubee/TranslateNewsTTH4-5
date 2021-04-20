@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, Row, Col
+    CardTitle, CardSubtitle, Row, Col
 } from 'reactstrap';
 import '../styles/Vaccinenews.css';
 import VaccineNews from '../data/vaccinenews.json'
