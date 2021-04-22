@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const axios = require('axios');
+const { response } = require('express');
 app.use(express.json());
 
 
@@ -26,5 +27,20 @@ app.get('/exampleApi', function (req, res) {
         res.status(400).json({error:"An error occurred"});
     })
 })
+
+app.post('/translateNews', function(translateReq, translateRes) {
+    let language = translateReq.query.language;
+    const body = translateReq.body;
+
+    axios.post(`https://codubee-projects-api.herokuapp.com/translate/translateNews?language=${language}`, body)
+    .then(function (res) {
+        console.log(res.data);
+        translateRes.status(200).json(res.data);
+    })
+    .catch(function (error) {
+        console.log(error);
+        translateRes.status(400).json({error: "An error occurred in POST /translateNews"});
+    });
+});
 
 app.listen(8080, () => console.log('Listening at locahost:8080'))
