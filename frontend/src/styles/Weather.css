@@ -1,0 +1,9 @@
+.weather{
+    line-height: 80%;
+    margin: 10px;
+    text-align: right;
+}
+.temp{
+    margin-right: 5%;
+    font-size: 2em;
+}
