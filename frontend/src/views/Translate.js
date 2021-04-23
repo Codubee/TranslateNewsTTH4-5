@@ -9,7 +9,6 @@ import Language from '../components/Language.js';
 function Translate(){
     return(
         <div className="center">
-            <h1>Translate View</h1>
             <Language/>
         </div>
         
