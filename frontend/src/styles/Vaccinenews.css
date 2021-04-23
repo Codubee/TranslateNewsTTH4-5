@@ -1,0 +1,23 @@
+.card-style{
+    margin-bottom:10px;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color:black;
+}
+
+img {
+    object-fit:cover;
+}
