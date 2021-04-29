@@ -1,4 +1,6 @@
 import React from 'react';
+import Language from '../components/Language.js';
+import Vaccinenews from '../components/Vaccinenews'
 
 /* This component is a skeleton of the Translate view. 
    It was created as a place holder for testing,
@@ -8,8 +10,10 @@ import React from 'react';
 function Translate(){
     return(
         <div className="center">
-            <h1>Translate View</h1>
+            <Language/>
+            <Vaccinenews/>
         </div>
+        
     )
 }
 

@@ -27,6 +27,7 @@ app.get('/exampleApi', function (req, res) {
     })
 })
 
+
 app.post('/translateNews', function(translateReq, translateRes) {
     let language = translateReq.query.language;
     const body = translateReq.body;
@@ -41,5 +42,19 @@ app.post('/translateNews', function(translateReq, translateRes) {
         translateRes.status(400).json({error: "An error occurred in POST /translateNews"});
     });
 });
+
+app.get('/getWeather', function(req, res){
+    axios.get('https://codubee-projects-api.herokuapp.com/translate/getWeather')
+    .then(function(response){
+      //handle success and send back a 200 data response
+      console.log(response.data);
+      res.status(200).json(response.data);
+    })
+    .catch(function(error){
+      //if error occurs:
+      console.log(error);
+      res.status(400).json({error:"An error occurred."});
+    })
+})
 
 app.listen(8080, () => console.log('Listening at locahost:8080'))
