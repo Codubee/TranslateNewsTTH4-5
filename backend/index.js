@@ -41,4 +41,18 @@ app.get('/getWeather', function(req, res){
     })
 })
 
+app.get('/getLocalNews', function(req, res){
+    axios.get('https://codubee-projects-api.herokuapp.com/translate/getLocalNews')
+    .then(function(response){
+      //handle success and send back a 200 data response
+      console.log(response.data);
+      res.status(200).json(response.data);
+    })
+    .catch(function(error){
+      //if error occurs:
+      console.log(error);
+      res.status(400).json({error:"An error occurred."});
+    })
+})
+
 app.listen(8080, () => console.log('Listening at locahost:8080'))
