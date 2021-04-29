@@ -27,6 +27,22 @@ app.get('/exampleApi', function (req, res) {
     })
 })
 
+
+app.post('/translateNews', function(translateReq, translateRes) {
+    let language = translateReq.query.language;
+    const body = translateReq.body;
+
+    axios.post(`https://codubee-projects-api.herokuapp.com/translate/translateNews?language=${language}`, body)
+    .then(function (res) {
+        console.log(res.data);
+        translateRes.status(200).json(res.data);
+    })
+    .catch(function (error) {
+        console.log(error);
+        translateRes.status(400).json({error: "An error occurred in POST /translateNews"});
+    });
+});
+
 app.get('/getWeather', function(req, res){
     axios.get('https://codubee-projects-api.herokuapp.com/translate/getWeather')
     .then(function(response){
