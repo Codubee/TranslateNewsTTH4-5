@@ -14,11 +14,11 @@ function Vaccinenews(){
             </h1>
             <Row>
                 {VaccineNews.map((vaccineCard, index)=>(
-                    <Col sm='4'>
+                    <Col sm='4' key={index}>
                         <Card className='card-style'>
                             <CardImg height="150" src={vaccineCard.image} alt="Article Image" />
                             <CardBody>
-                            <CardTitle tag="h5"><a target='_blank' href={vaccineCard.url}>{vaccineCard.title}</a></CardTitle>
+                            <CardTitle tag="h5"><a target='_blank' rel="noreferrer" href={vaccineCard.url}>{vaccineCard.title}</a></CardTitle>
                             <CardSubtitle tag="h6" className="mb-2 text-muted">{vaccineCard.subtext}</CardSubtitle>
                             <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                             </CardBody>

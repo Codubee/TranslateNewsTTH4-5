@@ -2,19 +2,26 @@ import React from 'react';
 import Language from '../components/Language.js';
 import Vaccinenews from '../components/Vaccinenews'
 
-/* This component is a skeleton of the Translate view. 
-   It was created as a place holder for testing,
-   and demonstration purposes of the routing functionality.
-*/
+class Translate extends React.Component {
 
-function Translate(){
-    return(
-        <div className="center">
-            <Language/>
-            <Vaccinenews/>
-        </div>
-        
-    )
+    constructor(props){
+        super(props)
+        this.changeLanguage = this.changeLanguage.bind(this)
+    }
+    changeLanguage(){
+        //API call to translate the news goes here
+        var language = localStorage.getItem('language')
+    }
+    
+    render() {
+        return (
+            <div className="center">
+                <Language />
+                <Vaccinenews />
+            </div>
+
+        )
+    }
 }
 
 export default Translate;
