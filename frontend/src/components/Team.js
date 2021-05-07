@@ -36,7 +36,7 @@ function Team() {
           <Card  className="teammate-card center" key={index}>
           <CardImg className='teammate-pic' src={teammate.pic}/>
           <CardBody className='teammate-card-body'>
-            <CardTitle class="center" tag="h5">{teammate.name}</CardTitle>
+            <CardTitle className="center" tag="h5">{teammate.name}</CardTitle>
             <CardSubtitle tag="h6" className="center mb-2 text-muted">{teammate.year}</CardSubtitle>
             <CardSubtitle tag="h6" className="center mb-2 text-muted">{teammate.major}</CardSubtitle>
             <CardSubtitle tag="h6" className="center mb-2 text-muted">{teammate.univ}</CardSubtitle>
