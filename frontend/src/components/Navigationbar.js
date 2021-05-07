@@ -21,17 +21,17 @@ function Navigationbar(){
       <Navbar className="navbar-color" dark expand="md">
         <NavbarBrand href="/">
           TranslateNews
-          <i class="fas fa-home"></i>
+          <i className="fas fa-home"></i>
         </NavbarBrand>  
         <NavbarToggler onClick={toggle} />  
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">News</NavLink>
+              <NavLink href="/translate">Translate</NavLink> 
             </NavItem>
           </Nav>
-          <NavbarText><i class="fas fa-language"></i></NavbarText>
-          <NavbarText><i class="fas fa-newspaper"></i></NavbarText>
+          <NavbarText><i className="fas fa-language"></i></NavbarText>
+          <NavbarText><i className="fas fa-newspaper"></i></NavbarText>
         </Collapse>
       </Navbar>
     </div>
