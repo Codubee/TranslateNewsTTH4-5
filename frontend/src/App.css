@@ -3,3 +3,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.lg-section{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.mt-sm{
+    margin-top: 2em;
+}

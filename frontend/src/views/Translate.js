@@ -1,6 +1,8 @@
 import React from 'react';
+import {Container} from 'reactstrap'
 import Language from '../components/Language.js';
 import Vaccinenews from '../components/Vaccinenews'
+import NewsDisplay from '../components/NewsDisplay.js';
 
 class Translate extends React.Component {
 
@@ -15,10 +17,11 @@ class Translate extends React.Component {
     
     render() {
         return (
-            <div className="center">
+            <Container className="lg-section">
                 <Language />
+                <NewsDisplay/>
                 <Vaccinenews />
-            </div>
+            </Container>
 
         )
     }
