@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
 const axios = require('axios');
+var cors = require('cors')
 app.use(express.json());
+app.use(cors())
 
 /*
     I will leave this here as an example that you can use
@@ -85,4 +87,4 @@ app.get('/getLocalNews', function(req, res){
     })
 })
 
-app.listen(8080, () => console.log('Listening at locahost:8080'))
+app.listen(process.env.PORT || 8080, () => console.log('Listening at locahost:8080'))
