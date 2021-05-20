@@ -20,6 +20,8 @@ class Vaccinenews extends React.Component{
           axios.get("/getVaccineNews")//check this line need to use the 
           .then((response)=> {
               console.log(response.data);
+              
+              console.log('test');
 
               this.setState({
                   VaccineNews: response.data
