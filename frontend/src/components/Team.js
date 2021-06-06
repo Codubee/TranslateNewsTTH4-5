@@ -22,7 +22,7 @@ function Team() {
   
   //list of teammates
   var team = [ new Teammate('Hannah ', 'Junior', 'Computer Science', 'The University of Texas at Dallas', Hannah),
-                new Teammate('Aru', 'Feshman', 'Computer Science', 'The University of Texas at Dallas', Aru), 
+                new Teammate('Aru', 'Freshman', 'Computer Science', 'The University of Texas at Dallas', Aru), 
                 new Teammate('Kirtan', 'Junior', 'Computer Science', 'The University of Texas at Dallas', Kirtan), 
                 new Teammate('Lillie', 'Freshman', 'Computer Science', 'The University of Texas at Dallas', Lillie), 
                 new Teammate('Jose', 'Junior', 'Computer Science', 'The University of Texas at Rio Grande Valley', Jose), ];
