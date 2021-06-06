@@ -1,7 +1,5 @@
-ul {
-    list-style-type: none;
+.newsItem {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
 }
 
-li {
-    list-style-type: none;
-}
