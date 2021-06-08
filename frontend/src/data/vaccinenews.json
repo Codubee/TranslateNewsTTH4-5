@@ -1,0 +1,43 @@
+[
+    {
+        "image":"https://play-lh.googleusercontent.com/4jJ1C7UePequc2x89CyXRp1a6w7O7nGp1T62WdS_09YGDXQh9xiSREn7w86ifM5Ip6Ba",
+        "title":"Robinhood Website",
+        "subtext":"This is the Robinhood website",
+        "url":"https://robinhood.com"
+    },
+
+    {
+        "image":"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+        "title":"Google Website",
+        "subtext":"This is Google website",
+        "url":"https://google.com"
+    },
+
+    {
+        "image":"https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png",
+        "title":"GitHub Website",
+        "subtext":"This is the GitHub website",
+        "url":"https://github.com"
+    },
+
+    {
+        "image":"https://images-na.ssl-images-amazon.com/images/I/31%2BDgxPWXtL.jpg",
+        "title":"Amazon Website",
+        "subtext":"This is the Amazon website",
+        "url":"https://amazon.com"
+    },
+
+    {
+        "image":"https://q3p9g6n2.rocketcdn.me/wp-content/ml-loads/2014/07/reddit-combo-1920-800x450.png",
+        "title":"Reddit Website",
+        "subtext":"This is the Reddit website",
+        "url":"https://reddit.com"
+    },
+
+    {
+        "image":"https://www.scdn.co/i/_global/open-graph-default.png",
+        "title":"Spotify Website",
+        "subtext":"This is the Spotify website",
+        "url":"https://spotify.com"
+    }
+]
