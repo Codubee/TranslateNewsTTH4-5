@@ -2,7 +2,7 @@ import React from 'react';
 import {Container} from 'reactstrap'
 import Language from '../components/Language.js';
 import Vaccinenews from '../components/Vaccinenews'
-import NewsDisplay from '../components/NewsDisplay.js';
+import LocalNews from '../components/LocalNews.js';
 
 class Translate extends React.Component {
 
@@ -19,7 +19,7 @@ class Translate extends React.Component {
         return (
             <Container className="lg-section">
                 <Language />
-                <NewsDisplay/>
+                <LocalNews/>
                 <Vaccinenews />
             </Container>
 
