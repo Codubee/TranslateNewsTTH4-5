@@ -1,5 +1,5 @@
 import React from 'react';
-import axois from 'axios';
+import axios from 'axios';
 import '../styles/Weather.css';
 
 class Weather extends React.Component{
@@ -12,10 +12,9 @@ class Weather extends React.Component{
     }
 
     componentDidMount(){
-          axois.get("/getWeather")//check this line need to use the 
+        axios.get("/getWeather")
           .then((response)=> {
               console.log(response.data);
-
               this.setState({
                   temp: response.data.temp
               })
