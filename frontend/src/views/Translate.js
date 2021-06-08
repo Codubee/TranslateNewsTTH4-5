@@ -3,6 +3,8 @@ import {Container} from 'reactstrap'
 import Language from '../components/Language.js';
 import Vaccinenews from '../components/Vaccinenews'
 import LocalNews from '../components/LocalNews.js';
+import NewsDisplay from '../components/NewsDisplay.js';
+import Weather from '../components/Weather.js';
 
 class Translate extends React.Component {
 
@@ -19,6 +21,7 @@ class Translate extends React.Component {
         return (
             <Container className="lg-section">
                 <Language />
+                <Weather/>
                 <LocalNews/>
                 <Vaccinenews />
             </Container>
