@@ -16,7 +16,7 @@ class Weather extends React.Component{
           .then((response)=> {
               console.log(response.data);
               this.setState({
-                  temp: response.data.temp
+                  temp: response.data
               })
           })
     }
@@ -24,11 +24,9 @@ class Weather extends React.Component{
     render(){
         return(
             <div className="weather">
-            <p className = "font-weight-bold">Today's Weather in {this.state.city} </p> 
-            <div className ="temp">
+                <p className = "font-weight-bold">Today's Weather in {this.state.city} </p> 
                 <p className="font-weight-light">{this.state.temp}</p> 
             </div>
-        </div>
         )
     }
 }
